@@ -1,9 +1,10 @@
 #!/usr/bin/php
 <?php
+    $array = null;
     if ($argc >= 2) {
         $array = explode(" ", $argv[1]);
     }
-    if ($array) {
+    if ($array !== null) {
         $array = array_filter($array);
         $i = sizeof($array);
         $nbr = 1;
@@ -14,4 +15,4 @@
             $nbr++;
         }
     }
-?>
+

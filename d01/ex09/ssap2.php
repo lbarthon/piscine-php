@@ -7,12 +7,13 @@
     }
 
     $i = 1;
+    $array = null;
     while ($i < $argc) {
         $array = $array ? array_merge($array, explode(" ", $argv[$i])) : explode(" ", $argv[$i]);
         $i++;
     }
-    $array = array_filter($array);
-    if ($array) {
+    if ($array !== null) {
+        $array = array_filter($array);
         foreach ($array as $value) {
             if (is_numeric($value)) {
                 $nbrs[] = $value;
@@ -29,4 +30,4 @@
         ft_print_array($nbrs);
         ft_print_array($others);
     }
-?>
+

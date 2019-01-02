@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-    while (1)
+    while (true)
     {
         echo "Entrez un nombre: ";
         $read = trim(fgets(STDIN));
@@ -15,4 +15,4 @@
             }
         }
     }
-?>
+
