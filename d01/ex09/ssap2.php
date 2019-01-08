@@ -6,6 +6,17 @@
         }
     }
 
+    function is_alpha($str) {
+        $array = str_split($str);
+        foreach ($array as $char) {
+            $i = ord($char);
+            if (!(($i >= 65 && $i <= 90) || ($i >= 97 && $i <= 122))) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     $i = 1;
     $array = null;
     while ($i < $argc) {
@@ -16,9 +27,9 @@
     if ($array !== null) {
         $array = array_filter($array);
         foreach ($array as $value) {
-            if (is_numeric($value)) {
+            if (is_numeric($value) === true) {
                 $nbrs[] = $value;
-            } else if (ctype_alpha($value)) {
+            } else if (is_alpha($value) === true) {
                 $strs[] = $value;
             } else {
                 $others[] = $value;
