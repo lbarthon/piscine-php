@@ -17,6 +17,10 @@
         return true;
     }
 
+    function filter($var) {
+        return ($var !== "" && $var !== null && $var !== false);
+    }
+
     $i = 1;
     $array = null;
     while ($i < $argc) {
@@ -25,7 +29,10 @@
         $i++;
     }
     if ($array !== null) {
-        $array = array_filter($array);
+        $array = array_filter($array, 'filter');
+        $nbrs = array();
+        $strs = array();
+        $others = array();
         foreach ($array as $value) {
             if (is_numeric($value) === true) {
                 $nbrs[] = $value;

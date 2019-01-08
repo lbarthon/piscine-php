@@ -1,5 +1,9 @@
 #!/usr/bin/php
 <?php
+    function filter($var) {
+        return ($var !== "" && $var !== null && $var !== false);
+    }
+
     $i = 1;
     $array = null;
     while ($i < $argc) {
@@ -8,8 +12,8 @@
         $i++;
     }
     if ($array !== null) {
-        $array = array_filter($array);
-        sort($array);
+        $array = array_filter($array, 'filter');
+        sort($array, SORT_STRING);
         foreach ($array as $word) {
             print($word . "\n");
         }
