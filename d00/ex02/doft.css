@@ -1,0 +1,171 @@
+html, body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #505050;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#header {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #909090;
+    box-shadow: 0.8vw 0.8vw 1vw black;
+}
+
+#header #mainpic {
+    margin: 0.5%;
+    width: 40%;
+}
+
+#header #loupe {
+    position: relative;
+    float: right;
+    width: 23%;
+    margin: 0 auto;
+}
+
+#header #reload {
+    position: relative;
+    float: right;
+    width: 2%;
+    margin: 0.5%;
+}
+
+#header #close {
+    position: relative;
+    float: bottom;
+    width: 2%;
+    margin: 0.5%;
+    left: 55.5%;
+}
+
+#body {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+#left {
+    position: relative;
+    background-color: #909090;
+    width: 14%;
+    height: 24vw;
+    margin: 0 1%;
+    border-radius: 10px;
+    box-shadow: 0.8vw 0.8vw 1vw black;
+    text-align: center;
+}
+
+#center {
+    position: relative;
+    background-color: #909090;
+    width: 66%;
+    height: 30vw;
+    margin: 0 1%;
+    border-radius: 10px;
+    box-shadow: 0.8vw 0.8vw 1vw black;
+    text-align: center;
+}
+
+#right {
+    position: relative;
+    background-color: #909090;
+    width: 14%;
+    height: 24vw;
+    margin: 0 1%;
+    border-radius: 10px;
+    box-shadow: 0.8vw 0.8vw 1vw black;
+    text-align: center;
+}
+
+#left img {
+    width: 4vw;
+    margin: 3% 2vw 0 2vw;
+}
+
+#left .border {
+    border: 4px solid red;
+}
+
+#center img {
+    width: 98%;
+    margin: 1%;
+}
+
+#center a {
+    display: block;
+    position: absolute;
+}
+
+#center #ikea {
+    top: 57%;
+    left: 32%;
+    width: 13%;
+    height: 35%;
+}
+
+#center #apple {
+    top: 58%;
+    left: 79%;
+    width: 18%;
+    height: 21%;
+}
+
+#right img {
+    width: 6vw;
+}
+
+#right #toppic {
+    margin-top: 4%;
+}
+
+#right #brique {
+    width: 80%;
+    height: 20%;
+    background-image: url('resources/brick.jpg');
+    margin: auto;
+}
+
+#popup {
+    position: fixed;
+    bottom: 2%;
+    left: 10%;
+    background-color: #8afb8c;
+    border-radius: 10px;
+    box-shadow: 0.8vw 0.8vw 1vw black;
+}
+
+#popup p {
+    font-size: 1.3vw;
+    font-family: sans-serif;
+}
+
+#popup #first {
+    margin: 0 3%;
+}
+
+#popup #italic {
+    font-style: italic;
+    margin: 0 3%;
+}
+
+#popup #redshade {
+    text-shadow: 0.1vw 0.1vw 0.2vw red;
+}
+
+#popup #fat {
+    font-size: 2.7vw;
+}
+
+#popup form {
+    margin: 1.5% 0 10% 3%;
+}
+
+#popup #name {
+    width: 70%;
+}

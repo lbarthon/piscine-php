@@ -7,15 +7,14 @@
         $op = trim($argv[2]);
         $nbr2 = trim($argv[3]);
         if ($op === "+") {
-            printf("%d\n", $nbr1 + $nbr2);
+            echo $nbr1 + $nbr2 . "\n";
         } else if ($op === "-") {
-            printf("%d\n", $nbr1 - $nbr2);
+            echo $nbr1 - $nbr2 . "\n";
         } else if ($op === "*") {
-            printf("%d\n", $nbr1 * $nbr2);
+            echo $nbr1 * $nbr2 . "\n";
         } else if ($op === "/") {
-            printf("%d\n", $nbr1 / $nbr2);
+            echo $nbr1 / $nbr2 . "\n";
         } else if ($op === "%") {
-            printf("%d\n", $nbr1 % $nbr2);
+            echo $nbr1 % $nbr2 . "\n";
         }
     }
-

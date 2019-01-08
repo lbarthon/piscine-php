@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day of the 42</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="vol.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="scumm.html">
+            <img id="mainpic" src="resources/day_of_the_42.png" alt="Day of the 42" title="Day of the 42">
+        </a>
+        <a href="scumm.html">
+            <img id="reload" src="resources/reload.png" alt="Recommencer au début" title="Recommencer au début">
+        </a>
+        <a href="javascript:window.close();">
+            <img id="close" src="resources/close.gif" alt="Déconnecter" title="Déconnecter">
+        </a>
+        <a href="javascript:jhonny();">
+            <img id="loupe" src="resources/loupe.png" alt="Zoomer" title="Zoomer">
+        </a>
+    </div>
+    <div id="body">
+        <div id="left">
+            <img src="resources/arrow.png" alt="Avancer" title="Avancer">
+            <img src="resources/main.png" alt="Prendre" title="Prendre">
+            <img src="resources/oeil.png" alt="Regarder" title="Regarder">
+            <img src="resources/outil.png" alt="Utiliser" title="Utiliser">
+            <img src="resources/chat-icon.png" alt="Parler" title="Parler">
+        </div>
+        <div id="center">
+            <img src="resources/voleur.jpg" alt="Cluster" title="Cluser">
+            <p>Discrétion - 0! Tu t'es fait avoir, recommence !</p>
+        </div>
+        <div id="right">
+            <a href="resources/rtfm.png">
+                <img id="toppic" src="resources/book.png" alt="Bouquin" title="Bouquin">
+            </a>
+            <a href="https://www.42.fr/la-piscine/">
+                <img src="resources/towel.png" alt="Serviette" title="Serviette">
+            </a>
+            <a href="resources/mur.png">
+                <div id="brique" title="Brique"></div>
+            </a>
+            <a href="javascript:mac();">
+                <img src="resources/mac.png" alt="Mac volé" title="Mac volé">
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function jhonny() { 
+            if (confirm("Un conseil de Jhonny ?")) {
+                location.href = "https://www.optic2000.com/";
+            } else {
+                alert("Il va mal le prendre...");
+            }
+        }
+
+        function mac() {
+            alert("Ouais c'est bien le mac que t'as volé!\nEt en plus il est cassé, on aura tout vu..");
+        }
+    </script>
+</body>
+
+</html>

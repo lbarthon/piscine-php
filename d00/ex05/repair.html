@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day of the 42</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="repair.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="scumm.html">
+            <img id="mainpic" src="resources/day_of_the_42.png" alt="Day of the 42" title="Day of the 42">
+        </a>
+        <a href="scumm.html">
+            <img id="reload" src="resources/reload.png" alt="Recommencer au début" title="Recommencer au début">
+        </a>
+        <a href="javascript:window.close();">
+            <img id="close" src="resources/close.gif" alt="Déconnecter" title="Déconnecter">
+        </a>
+        <a href="javascript:jhonny();">
+            <img id="loupe" src="resources/loupe.png" alt="Zoomer" title="Zoomer">
+        </a>
+    </div>
+    <div id="body">
+        <div id="left">
+            <img src="resources/arrow.png" alt="Avancer" title="Avancer">
+            <a href="javascript:fist();">
+                <img class="border" src="resources/main.png" alt="Prendre" title="Prendre">
+            </a>
+            <img src="resources/oeil.png" alt="Regarder" title="Regarder">
+            <img src="resources/outil.png" alt="Utiliser" title="Utiliser">
+            <img src="resources/chat-icon.png" alt="Parler" title="Parler">
+        </div>
+        <div id="center">
+            <img src="resources/repairfail.jpeg" alt="Cluster" title="Cluser">
+            <a id="ikea" title="S'assepor"></a>
+            <a id="apple" title="Vider la corbeille"></a>
+        </div>
+        <div id="right">
+            <a href="resources/rtfm.png">
+                <img id="toppic" src="resources/book.png" alt="Bouquin" title="Bouquin">
+            </a>
+            <a href="https://www.42.fr/la-piscine/">
+                <img src="resources/towel.png" alt="Serviette" title="Serviette">
+            </a>
+            <a href="resources/mur.png">
+                <div id="brique" title="Brique"></div>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function fist() {
+            if (confirm("Voler un mac cassé ? Que de bonnes idées aujourd'hui!")) {
+                location.href = "vol.html";
+            } else {
+                alert("T'as raison! Tu ferais mieux de recommencer..");
+            }
+        }
+
+        function jhonny() {
+            if (confirm("Un conseil de Jhonny ?")) {
+                location.href = "https://www.optic2000.com/";
+            } else {
+                alert("Il va mal le prendre...");
+            }
+        }
+    </script>
+</body>
+
+</html>

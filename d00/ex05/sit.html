@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day of the 42</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="sit.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="scumm.html">
+            <img id="mainpic" src="resources/day_of_the_42.png" alt="Day of the 42" title="Day of the 42">
+        </a>
+        <a href="scumm.html">
+            <img id="reload" src="resources/reload.png" alt="Recommencer au début" title="Recommencer au début">
+        </a>
+        <a href="javascript:window.close();">
+            <img id="close" src="resources/close.gif" alt="Déconnecter" title="Déconnecter">
+        </a>
+        <a href="javascript:jhonny();">
+            <img id="loupe" src="resources/loupe.png" alt="Zoomer" title="Zoomer">
+        </a>
+    </div>
+    <div id="body">
+        <div id="left">
+            <a href="javascript:foncer();">
+                <img class="border" src="resources/arrow.png" alt="Avancer" title="Avancer">
+            </a>
+            <a href="javascript:fist();">
+                <img class="border" src="resources/main.png" alt="Prendre" title="Prendre">
+            </a>
+            <img src="resources/oeil.png" alt="Regarder" title="Regarder">
+            <a href="javascript:repair();">
+                <img class="border" src="resources/outil.png" alt="Réparer" title="Réparer">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img class="border" src="resources/chat-icon.png" alt="Parler" title="Parler">
+            </a>
+        </div>
+        <div id="center">
+            <img src="resources/mac.png" alt="Cluster" title="Cluser">
+            <a id="ikea" title="S'assepor"></a>
+            <a href="javascript:corbeille();" id="apple" title="Vider la corbeille"></a>
+        </div>
+        <div id="right">
+            <a href="resources/rtfm.png">
+                <img id="toppic" src="resources/book.png" alt="Bouquin" title="Bouquin">
+            </a>
+            <a href="https://www.42.fr/la-piscine/">
+                <img src="resources/towel.png" alt="Serviette" title="Serviette">
+            </a>
+            <a href="resources/mur.png">
+                <div id="brique" title="Brique"></div>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function fist() {
+            if (confirm("Naaaan, tu vas quand même pas voler le mac ?")) {
+                location.href = "vol.html";
+            } else {
+                alert("Tu m'as fait peur!");
+            }
+        }
+
+        function jhonny() {
+            if (confirm("Un conseil de Jhonny ?")) {
+                location.href = "https://www.optic2000.com/";
+            } else {
+                alert("Il va mal le prendre...");
+            }
+        }
+
+        function repair() {
+            if (confirm("Ah, enfin une bonne idée dans ta journée! Réparons ce mac!")) {
+                location.href = "repair.html";
+            }
+        }
+
+        function corbeille() {
+            if (confirm("Vider la corbeille ?")) {
+                alert("La corbeille se vide...");
+            }
+        }
+
+        function foncer() {
+            alert("Et voilà que môssieu veut foncer dans le mac!\nT'aurais pas une meilleure idée ?");
+        }
+    </script>
+</body>
+
+</html>

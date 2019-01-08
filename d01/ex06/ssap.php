@@ -3,7 +3,8 @@
     $i = 1;
     $array = null;
     while ($i < $argc) {
-        $array = $array ? array_merge($array, explode(" ", $argv[$i])) : explode(" ", $argv[$i]);
+        $array = $array !== null ? 
+            array_merge($array, explode(" ", $argv[$i])) : explode(" ", $argv[$i]);
         $i++;
     }
     if ($array !== null) {
@@ -13,4 +14,3 @@
             print($word . "\n");
         }
     }
-
