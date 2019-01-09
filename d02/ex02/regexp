@@ -1,0 +1,2 @@
+"/<a.*>(.*)</a>/" - > maj tt ce qui est pas entre <>
+"/<[^>]*title="([^"]*)/"

@@ -7,7 +7,7 @@
         $array = explode(" ", $str);
         if ($array != null) {
             $array = array_filter($array, 'filter');
-            sort($array);
+            sort($array, SORT_STRING);
         }
         return ($array);
     }

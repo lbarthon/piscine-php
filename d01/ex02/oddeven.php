@@ -4,7 +4,7 @@
     {
         echo "Entrez un nombre: ";
         $read = trim(fgets(STDIN));
-        if (feof(STDIN)) exit();
+        if (feof(STDIN)) exit("\n");
         if (!is_numeric($read)) {
             printf ("'$read' n'est pas un chiffre\n");
         } else {

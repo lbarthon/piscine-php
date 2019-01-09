@@ -1,9 +1,12 @@
 <?php
     function ft_is_sort(array $tab) {
+        $copy = array();
         $sort = $tab;
+        foreach ($tab as $value) {
+            $copy[] = $value;
+        }
         sort($sort);
-        if ($tab != $sort)
+        if ($copy != $sort)
             return false;
-        else
-            return true;
+        return true;
     }

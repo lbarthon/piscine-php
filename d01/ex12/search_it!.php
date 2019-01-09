@@ -5,11 +5,10 @@
     }
 
     function starts_with ($string, $start) 
-    { 
+    {
         $len = ft_strlen($start); 
         return (substr($string, 0, $len) === $start); 
     }
-
     if ($argc > 2) {
         $key = $argv[1];
         $i = 2;
@@ -24,3 +23,4 @@
             echo $message;
         }
     }
+

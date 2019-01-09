@@ -10,12 +10,11 @@
     }
     if ($array !== null) {
         $array = array_filter($array, 'filter');
-        $array = array_reverse($array);
-        $i = sizeof($array);
-        foreach ($array as $word) {
-            print($word);
-            $i--;
-            if ($i != 0) print(" ");
-            else print("\n");
+        $size = count($array);
+        $i = 1;
+        while ($i < $size) {
+            echo $array[$i] . " ";
+            $i++;
         }
+        echo $array[0] . "\n";
     }
