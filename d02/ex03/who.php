@@ -14,17 +14,25 @@
      * Apple writes 1256 octets au boot du système
      */
     $filestr = substr($filestr, 1256);
+    $render = array();
     while ($filestr != null) {
         $unpack = unpack($format, $filestr);
         /**
          * Only keeping processes that have type === 7 because it's USER_PROCESS
          */
         if ($unpack[type] === 7) {
-            $date = date(" M  d h:i", $unpack[time]);
-            echo $unpack[user] . " " . $unpack[device] . " " . $date . "\n";
+            $date = date(" M d H:i", $unpack[time]);
+            $render[] = $unpack[user] . " " . $unpack[device] . " " . $date . "\n";
         }
         /**
          * 628 octets écrits par process dans UTMPX
          */
         $filestr = substr($filestr, 628);
+    }
+
+    if ($render !== null) {
+        sort($render);
+        foreach ($render as $value) {
+            echo $value;
+        }
     }
