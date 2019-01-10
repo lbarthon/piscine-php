@@ -11,16 +11,19 @@
     function get_month($str) {
         switch ($str) {
             case "janvier": return 1;
+            case "fevrier": return 2;
             case "février": return 2;
             case "mars": return 3;
             case "avril": return 4;
             case "mai": return 5;
             case "juin": return 6;
             case "juillet": return 7;
+            case "aout": return 8;
             case "août": return 8;
             case "septembre": return 9;
             case "octobre": return 10;
             case "novembre": return 11;
+            case "decembre": return 12;
             case "décembre": return 12;
             default: return false;
         }
@@ -44,7 +47,7 @@
             die("Wrong Format\n");
         }
         $array[2] = get_month($array[2]);
-        if ($array[2] === false || strlen($array[3]) < 4) {
+        if ($array[2] === false || strlen($array[3]) !== 4) {
             die("Wrong Format\n");
         }
         if ($array[3] < 1970) {
