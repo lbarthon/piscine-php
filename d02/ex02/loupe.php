@@ -8,7 +8,7 @@
         }, $text);
         $text = preg_replace_callback("/(<a.*?)(>.*<)(\/a>)/s", function ($word) {
             return $word[1] .
-                preg_replace_callback("/(>\n?)([^<>]*)(\n?<)/s", function ($match) {
+                preg_replace_callback("/(>)([^<>]*)(<)/s", function ($match) {
                     return $match[1] . strtoupper($match[2]) . $match[3];
                 }, $word[2])
             . $word[3];

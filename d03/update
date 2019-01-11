@@ -2,5 +2,5 @@
 if [ -n "$1" ] ; then 
 	scp -rP 2222 . root@51.77.202.107:/var/www/php/$1
 else
-	echo "Please profide a folder in which you want to access data."
+	echo "Please provide a folder in which you want to access data."
 fi
