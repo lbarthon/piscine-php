@@ -1,0 +1,345 @@
+commit c5418f5c02d35aa3d611656bdcc50331b5a7fd1d
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 19:15:09 2019 +0100
+
+    Images removed
+
+commit 8151ba0697ea5f73da72af32c97dc03a0aa89fa9
+Merge: cb5f1cd 3f8667c
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 19:03:05 2019 +0100
+
+     Info panier home
+
+commit cb5f1cd49a38c944dcbe57f9509ad852d7f6a159
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 19:02:45 2019 +0100
+
+     Info panier home
+
+commit 3f8667c88f59c3989faa4b2e7a3158359446107f
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:58:00 2019 +0100
+
+    Login edited (affichage)
+
+commit 7458b51a072f1b2dbc5e454705bfed47366dd779
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:49:58 2019 +0100
+
+    Users form
+
+commit 18304006aebb0707f1d0c074659da54b0990d497
+Merge: 816a819 3ed4999
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:43:58 2019 +0100
+
+    Merge
+
+commit 816a819d7335ece464d8f3b59a043d4e63f505fc
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:43:42 2019 +0100
+
+    Fixs & doc
+
+commit 3ed4999ecf7c4098358546ce1638d525d0323065
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 18:42:52 2019 +0100
+
+     maj size image
+
+commit ec8268e252c91b22ec35bc9bfeac4bbd7cceed45
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:15:14 2019 +0100
+
+    Huge pictures removed
+
+commit 1c91fe8844de5502eabfca9197ec0084f206620a
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:11:10 2019 +0100
+
+    Cya stephen king
+
+commit 7a0a74f2460ca2e83f0605e65cb2d43ab016d7d1
+Merge: 2926f61 7776cd0
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:10:16 2019 +0100
+
+    Merge
+
+commit 2926f6102224e9b5312c9a8f3252b2e5b46f30ea
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:10:05 2019 +0100
+
+    Some doc
+
+commit 7776cd0b109b079358748667b115db0a107c1aa4
+Merge: be29d54 718af6d
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 18:09:25 2019 +0100
+
+    imgs books
+
+commit be29d54674274b863bc2e8b1b58efccc28411103
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 18:09:02 2019 +0100
+
+    imgs books
+
+commit 718af6d10f6d9d32dc596cfd0efafb13427db5ba
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 18:03:01 2019 +0100
+
+    Session_start protected
+
+commit c4902bfb01944c9be9e374f51e8d70de8432c29f
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 17:58:51 2019 +0100
+
+    maj
+
+commit 35960224d363324f91413aa967b6a7ef0937df22
+Merge: bb9b1f4 9511082
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 17:49:14 2019 +0100
+
+    merges
+
+commit bb9b1f4e895ef7391a462421da9547a860727b78
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 17:48:41 2019 +0100
+
+    maj css
+
+commit 9511082cf0ca8160cd0cdf2253b1a9002ea82886
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 17:47:38 2019 +0100
+
+    Orders ok, admin css todo
+
+commit f7401087fa0741e4700318148a7ed8ed6896b5ff
+Merge: c5b61a3 462dadb
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 17:32:49 2019 +0100
+
+    MERGE
+
+commit c5b61a3a5b871e5bf7669bdb856684504e8148ca
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 17:32:42 2019 +0100
+
+    Mysqli close fixed + order advancement
+
+commit 462dadb62d2a34950579a41b31a8c3b21382339f
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 17:31:57 2019 +0100
+
+    check mysqli close ;)
+
+commit 812e26acab1d0c666e1db1e8d804a3c8dd05cc66
+Merge: 61e8eb4 d4d00f3
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 17:01:56 2019 +0100
+
+    MAJ css
+
+commit 61e8eb459a3327c66347e44be9bbb112a54db263
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 17:01:36 2019 +0100
+
+    MAJ css
+
+commit d4d00f34c9752d467594433448722cd4060c196c
+Merge: 2f0cc20 a09c51a
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 16:58:47 2019 +0100
+
+    MERGE
+
+commit 2f0cc208027e41e71536da07ee4686bbe0e3a31a
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 16:58:32 2019 +0100
+
+    Modify users -- OK
+
+commit a09c51afdc052dcfab585565fe513f9489262dd0
+Merge: 56b0d1d 172ab9e
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 16:34:19 2019 +0100
+
+    MAJ footer
+
+commit 56b0d1dbd066e8ba9bade495d696714ac8c35196
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 16:33:57 2019 +0100
+
+    MAJ footer
+
+commit 172ab9ef7c6021ac230b0663deb2d78229bb5d5b
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 16:24:10 2019 +0100
+
+    Lot of edits
+
+commit 3c06d9000cb65b0072e1dc91ad6b84d77cd9f4df
+Merge: f0abfa9 d474f8d
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 15:56:49 2019 +0100
+
+    MERGE
+
+commit f0abfa94259a5b9482327f086cfd375a008fb6c2
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 15:56:36 2019 +0100
+
+    Advancement cart + product
+
+commit d474f8df10612376ae81d61457fbfca4cac40428
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 15:47:01 2019 +0100
+
+    page logout
+
+commit 1569055b87cd7b9a2c4334ccb342419744f58a68
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 14:46:55 2019 +0100
+
+     MAJ order 7 header
+
+commit 9c8cc5e373d838dccd2d27159339523b15a19aa7
+Merge: 480fd40 3380aad
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 14:13:43 2019 +0100
+
+    Add my account V2
+
+commit 480fd40b65a53970360992ac609dc13de179f32c
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 14:13:18 2019 +0100
+
+    Add my account
+
+commit 3380aaded3866bb1ced5e857b1fdb9bca83064bf
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 13:21:37 2019 +0100
+
+    Hash stock users -> deleted and replaced by email
+
+commit 2a126f14c927a7da7b1ac3d25b683c171944f264
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 12:30:35 2019 +0100
+
+    Admin checks for /admin
+
+commit 916274f0e3ed7d62072d7da7aff8b73b47cbd25b
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 12:12:51 2019 +0100
+
+    Login edited
+
+commit 4928873e7e55fa672cb2d9dcd6452eb8fdb9246d
+Merge: 53fb4b6 719af10
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 11:21:26 2019 +0100
+
+    Merge
+
+commit 53fb4b6161499f50ea1ac8693314eaf5760e71be
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 11:21:09 2019 +0100
+
+    Categories pages ok, product pages too, install edited, order.php created
+
+commit 719af108c8e0f15f18692c147ff8989af711e397
+Merge: e1ddff4 8e15c75
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 11:18:30 2019 +0100
+
+    merge
+
+commit e1ddff4707f41049f953353d47de0084c96fadc9
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 11:17:18 2019 +0100
+
+    page login
+
+commit 8e15c7518cdfdc007c81b270337ea7443b96f6ff
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sun Jan 13 09:47:56 2019 +0100
+
+    Lot of changes, category page OK
+
+commit 8a8711ecdd1b26c30d28cb2a259e2842052de209
+Merge: 5bb9895 71382bb
+Author: Isabelle FEDIEU <ifedieu@e2r10p23.42.fr>
+Date:   Sun Jan 13 08:57:19 2019 +0100
+
+    MAL 2
+
+commit 5bb989553754e561ba97db58bf1fab4fe4e09c69
+Author: Isabelle FEDIEU <ifedieu@e2r10p19.42.fr>
+Date:   Sat Jan 12 22:52:17 2019 +0100
+
+    MAJ 2
+
+commit 71382bb9049d1ae63f0847acdf88a0aef558ae74
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 18:42:12 2019 +0100
+
+    fixes everywhere! (back-office)
+
+commit a1d78034b51399ccd0665a413bea8c6bbf54d957
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 18:17:00 2019 +0100
+
+    Admin pages -> ©
+
+commit fee977522b8bc61a21d2aa6691d19ac5a2c99ee3
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 18:05:36 2019 +0100
+
+    Orders (still todo on it)
+
+commit 6aff184f3b98daa7c720ef59acef9a02ba66813b
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 17:54:30 2019 +0100
+
+    Admin pages OK, only need to do the order page
+
+commit 910aab079f579586ed3dbff859d01d3f816935b1
+Merge: 8c46588 f864fef
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 17:22:17 2019 +0100
+
+    Merge
+
+commit 8c46588113a7d98c913902245fe1cf14eedef56d
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 17:21:58 2019 +0100
+
+    All pages look ok, let's see
+
+commit f864fef2f550f0e1a3880bda050414b9c0ee20da
+Merge: 395aaf4 10b86b5
+Author: Isabelle FEDIEU <ifedieu@e2r10p19.42.fr>
+Date:   Sat Jan 12 15:34:16 2019 +0100
+
+    ajout Isa
+
+commit 395aaf419443aafd54d2cf18dd6714698537f2b5
+Author: Isabelle FEDIEU <ifedieu@e2r10p19.42.fr>
+Date:   Sat Jan 12 15:33:06 2019 +0100
+
+    ajout Isa
+
+commit 10b86b514878669d23411fc8a8028800a61833b3
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 15:31:43 2019 +0100
+
+    Admin panel advancement + install.php
+
+commit 002b3ad9d0b0990204aafa66f8f57045ae3751d6
+Author: lbarthon <lsbarthonet2@gmail.com>
+Date:   Sat Jan 12 09:54:42 2019 +0100
+
+    First commit
