@@ -1,0 +1,19 @@
+
+<- Vertex ----------------------------------------------------------------------
+The vertex class handles Vertices.
+
+This class have 5 private attributes :
+4 coordinates, x y z and w, and a Color, default to White.
+
+There's a getter and a setter for each of those 5 attributtes.
+
+x y and z are needed to cronstruct the object, where both w and color are
+optional, by default set to 1.0 and white (rgb(255, 255, 255)).
+Other uses are undefined behaviour.
+
+Example of object creation:
+new Vertex(array('x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => new Color(..)));
+
+This class doesn't provide any other method, except the static one, doc(), that
+prints this file contents.
+---------------------------------------------------------------------- Vertex ->
