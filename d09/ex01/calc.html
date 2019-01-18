@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>It's over 9000</title>
+    <script>
+        window.onload = function() {
+            var form = document.getElementById("calc");
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                var nbr1 = parseInt(form['nbr1'].value);
+                var nbr2 = parseInt(form['nbr2'].value);
+                var op = form['op'].value;
+                if ((op == "%" || op == "/") && nbr2 == 0) {
+                    alert("It's over 9000!");
+                } else if (op == "/") {
+                    alert(nbr1 / nbr2);
+                    console.log(nbr1 / nbr2);
+                } else if (op == "%") {
+                    alert(nbr1 % nbr2);
+                    console.log(nbr1 % nbr2);
+                } else if (op == "*") {
+                    alert(nbr1 * nbr2);
+                    console.log(nbr1 * nbr2);
+                } else if (op == "+") {
+                    alert(nbr1 + nbr2);
+                    console.log(nbr1 + nbr2);
+                } else if (op == "-") {
+                    alert(nbr1 - nbr2);
+                    console.log(nbr1 - nbr2);
+                }
+                return false;
+            });
+        }
+        setInterval(function () {
+            alert("Please, use me...");
+        }, 30000);
+    </script>
+</head>
+<body>
+    <form id="calc" name="calc">
+        <input type="text" name="nbr1" required>
+        <select name="op">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+        <input type="text" name="nbr2" required>
+        <input type="submit" value="Try me!">
+    </form>
+</body>
+</html>
