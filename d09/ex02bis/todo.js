@@ -15,7 +15,7 @@ $(function () {
 
     button.on("click", function () {
         var ret = prompt("Élément à ajouter à la liste ?", "Nouvel élément");
-        if (ret != null && ret != "" && ret != "null") {
+        if (ret != null && ret != "") {
             addElemTop(ret);
         }
     });
