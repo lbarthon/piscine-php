@@ -2,7 +2,6 @@ $(function () {
     var button = $("#new");
     var list = $("#ft_list");
     var str = decodeURIComponent(getCookie());
-    console.log(str);
     if (str && str != "" && str != null && str != "null") {
         list.html(str);
         list.children().on("click", function () {

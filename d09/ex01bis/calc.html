@@ -12,8 +12,11 @@
                 var nbr1 = parseInt($(this).find("input[name=nbr1]").val());
                 var nbr2 = parseInt($(this).find("input[name=nbr2]").val());
                 var op = $(this).find("select[name=op]").val();
-                if ((op == "%" || op == "/") && nbr2 == 0) {
+                if (nbr1 < 0 || nbr2 < 0) {
+                    alert("Error :(");
+                } else if ((op == "%" || op == "/") && nbr2 == 0) {
                     alert("It's over 9000!");
+                    console.log("It's over 9000!");
                 } else if (op == "/") {
                     alert(nbr1 / nbr2);
                     console.log(nbr1 / nbr2);
