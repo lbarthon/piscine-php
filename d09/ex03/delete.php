@@ -23,6 +23,5 @@
                 fputcsv($file, $line, ";");
             }
             fclose($file);
-            die("ALL OK");
         }
     }
