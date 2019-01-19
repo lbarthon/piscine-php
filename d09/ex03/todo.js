@@ -41,7 +41,9 @@ $(function () {
 
     button.on("click", function () {
         var ret = prompt("Élément à ajouter à la liste ?", "Nouvel élément");
-        addElemTop(ret);
+        if (ret != null && ret != "" && ret != "null") {
+            addElemTop(ret);
+        }
     });
 
     function addElemTop(text) {
